@@ -1,67 +1,159 @@
 {
-	"Generated": "2026-04-10T17:22:25.927Z",
+	"Generated": "2026-05-22T05:40:50.039Z",
+	"Mode": "module",
 	"GitHubOrg": "stevenvelozo",
 	"DefaultBranch": "master",
-	"Groups": [
-		{
-			"Name": "Dist",
-			"Key": "dist",
-			"Description": "",
-			"Modules": [
-				{
-					"Name": "indoctrinate_content_staging",
-					"Repo": "indoctrinate_content_staging",
-					"Group": "dist",
-					"Branch": "master",
-					"HasDocs": false,
-					"HasCover": false,
-					"Sidebar": [],
-					"DocFiles": []
-				}
-			]
-		},
-		{
-			"Name": "Docs",
-			"Key": "docs",
-			"Description": "",
-			"Modules": [
-				{
-					"Name": "api",
-					"Repo": "api",
-					"Group": "docs",
-					"Branch": "master",
-					"HasDocs": true,
-					"HasCover": false,
-					"Sidebar": [],
-					"DocFiles": [
-						"api/DefaultProviderPortMap.md",
-						"api/compare.md",
-						"api/constructor.md",
-						"api/discoverBackends.md",
-						"api/fanout.md",
-						"api/getBackends.md",
-						"api/parseArgv.md",
-						"api/parseBackendsArg.md",
-						"api/probePort.md",
-						"api/reference.md",
-						"api/setBackends.md",
-						"api/start.md",
-						"api/stop.md"
-					]
-				},
-				{
-					"Name": "css",
-					"Repo": "css",
-					"Group": "docs",
-					"Branch": "master",
-					"HasDocs": true,
-					"HasCover": false,
-					"Sidebar": [],
-					"DocFiles": [
-						"css/docuserve.css"
-					]
-				}
-			]
-		}
-	]
+	"Module": {
+		"Name": "retold-harness-consistency-proxy",
+		"Repo": "retold-harness-consistency-proxy",
+		"Group": "",
+		"Branch": "master",
+		"HasDocs": true,
+		"HasCover": true,
+		"Sidebar": [
+			{
+				"Title": "Getting Started",
+				"Children": [
+					{
+						"Title": "Introduction",
+						"Path": "README.md"
+					},
+					{
+						"Title": "Quick Start",
+						"Path": "quick-start.md"
+					},
+					{
+						"Title": "Architecture",
+						"Path": "architecture.md"
+					},
+					{
+						"Title": "Configuration",
+						"Path": "configuration.md"
+					}
+				]
+			},
+			{
+				"Title": "Core Concepts",
+				"Children": [
+					{
+						"Title": "Response Envelope",
+						"Path": "envelope.md"
+					},
+					{
+						"Title": "Field Exclusion",
+						"Path": "field-exclusion.md"
+					},
+					{
+						"Title": "Provider Discovery",
+						"Path": "provider-discovery.md"
+					}
+				]
+			},
+			{
+				"Title": "API Reference",
+				"Children": [
+					{
+						"Title": "Overview",
+						"Path": "api/reference.md"
+					},
+					{
+						"Title": "ConsistencyProxy",
+						"Children": []
+					},
+					{
+						"Title": "constructor()",
+						"Path": "api/constructor.md"
+					},
+					{
+						"Title": "start()",
+						"Path": "api/start.md"
+					},
+					{
+						"Title": "stop()",
+						"Path": "api/stop.md"
+					},
+					{
+						"Title": "RequestFanout",
+						"Children": []
+					},
+					{
+						"Title": "setBackends()",
+						"Path": "api/setBackends.md"
+					},
+					{
+						"Title": "getBackends()",
+						"Path": "api/getBackends.md"
+					},
+					{
+						"Title": "fanout()",
+						"Path": "api/fanout.md"
+					},
+					{
+						"Title": "ResponseComparator",
+						"Children": []
+					},
+					{
+						"Title": "compare()",
+						"Path": "api/compare.md"
+					},
+					{
+						"Title": "Provider Discovery",
+						"Children": []
+					},
+					{
+						"Title": "parseBackendsArg()",
+						"Path": "api/parseBackendsArg.md"
+					},
+					{
+						"Title": "probePort()",
+						"Path": "api/probePort.md"
+					},
+					{
+						"Title": "discoverBackends()",
+						"Path": "api/discoverBackends.md"
+					},
+					{
+						"Title": "parseArgv()",
+						"Path": "api/parseArgv.md"
+					},
+					{
+						"Title": "DefaultProviderPortMap",
+						"Path": "api/DefaultProviderPortMap.md"
+					}
+				]
+			}
+		],
+		"DocFiles": [
+			".nojekyll",
+			"README.md",
+			"_brand.json",
+			"_cover.md",
+			"_sidebar.md",
+			"_topbar.md",
+			"_version.json",
+			"api/DefaultProviderPortMap.md",
+			"api/compare.md",
+			"api/constructor.md",
+			"api/discoverBackends.md",
+			"api/fanout.md",
+			"api/getBackends.md",
+			"api/parseArgv.md",
+			"api/parseBackendsArg.md",
+			"api/probePort.md",
+			"api/reference.md",
+			"api/setBackends.md",
+			"api/start.md",
+			"api/stop.md",
+			"architecture.md",
+			"configuration.md",
+			"envelope.md",
+			"field-exclusion.md",
+			"index.html",
+			"provider-discovery.md",
+			"quick-start.md",
+			"retold-catalog.json",
+			"retold-keyword-index.json"
+		]
+	},
+	"Groups": []
 }
