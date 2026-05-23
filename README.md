@@ -1,5 +1,7 @@
 # Retold Harness Consistency Proxy
 
+> **[&#9654; Read the Retold-Harness-Consistency-Proxy Documentation](https://stevenvelozo.github.io/retold-harness-consistency-proxy/)** &mdash; interactive docs with the full API reference.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Splitter HTTP proxy that fans out every incoming request to multiple retold-harness backends in parallel, compares their responses, and returns a JSON envelope showing agreement or differences.
