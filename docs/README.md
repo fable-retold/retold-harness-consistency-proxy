@@ -88,4 +88,4 @@ curl http://localhost:9090/1.0/Author/1
 - [Response Envelope](envelope.md) -- Anatomy of a consistency report
 - [Configuration](configuration.md) -- Settings reference
 - [API Reference](api/reference.md) -- Full method documentation
-- [GitHub](https://github.com/stevenvelozo/retold-harness)
+- [GitHub](https://github.com/fable-retold/retold-harness)

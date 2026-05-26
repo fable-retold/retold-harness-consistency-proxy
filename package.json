@@ -12,7 +12,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/stevenvelozo/retold-harness.git"
+		"url": "git+https://github.com/fable-retold/retold-harness.git"
 	},
 	"author": "steven velozo <steven@velozo.com>",
 	"license": "MIT",

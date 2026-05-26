@@ -14,4 +14,4 @@ Fan out every HTTP request to multiple retold-harness backends in parallel and c
 [Quick Start](quick-start.md)
 [API Reference](api/reference.md)
 [Architecture](architecture.md)
-[GitHub](https://github.com/stevenvelozo/retold-harness)
+[GitHub](https://github.com/fable-retold/retold-harness)

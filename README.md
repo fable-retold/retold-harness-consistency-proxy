@@ -1,6 +1,6 @@
 # Retold Harness Consistency Proxy
 
-> **[&#9654; Read the Retold-Harness-Consistency-Proxy Documentation](https://stevenvelozo.github.io/retold-harness-consistency-proxy/)** &mdash; interactive docs with the full API reference.
+> **[&#9654; Read the Retold-Harness-Consistency-Proxy Documentation](https://fable-retold.github.io/retold-harness-consistency-proxy/)** &mdash; interactive docs with the full API reference.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -160,10 +160,10 @@ Full documentation is available in the [docs](./docs/) directory.
 
 ## Related Packages
 
-- [retold-harness](https://github.com/stevenvelozo/retold-harness) -- Test harness backends this proxy compares
-- [meadow](https://github.com/stevenvelozo/meadow) -- Data access layer that powers the harness endpoints
-- [fable](https://github.com/stevenvelozo/fable) -- Application framework and service container
-- [fable-serviceproviderbase](https://github.com/stevenvelozo/fable-serviceproviderbase) -- Base class for Fable services
+- [retold-harness](https://github.com/fable-retold/retold-harness) -- Test harness backends this proxy compares
+- [meadow](https://github.com/fable-retold/meadow) -- Data access layer that powers the harness endpoints
+- [fable](https://github.com/fable-retold/fable) -- Application framework and service container
+- [fable-serviceproviderbase](https://github.com/fable-retold/fable-serviceproviderbase) -- Base class for Fable services
 
 ## License
 
